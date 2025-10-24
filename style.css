@@ -1,0 +1,41 @@
+body{
+  background-color:#FAEBD7;
+  font-family:Arial, sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  margin:0;
+}
+#h1{
+  text-align: center;
+}
+.drum-buttons{
+  display:grid;
+  grid-template-columns: repeat(3,120px);
+  grid-template-rows: repeat(3 ,50px);
+  grid-gap:15px;
+  }
+
+.drum-buttons button{
+  width:120px;
+  paddind:12px 20px;
+  font-size:16px;
+  background-color:#4682B4;
+  color:#FFFFFF;
+  border:none;
+  border-radius:8px;
+  margin:10px;
+  cursor:pointer;
+}
+
+#power{
+  margin-left:80px;
+}
+#bank{
+  margin-left:50px
+}
+#volume-control{
+  margin-left:93px;
+  padding:15px;
+}
